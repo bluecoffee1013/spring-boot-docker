@@ -1,0 +1,7 @@
+#docker run -d -p 8083:8080 --name spring-boot-docker spring-boot-docker:1.0
+spring-boot-docker:
+  image:  spring-boot-docker:1.0
+  container_name:  spring-boot-docker
+  ports:
+    - 8083:8080
+  restart:  always
