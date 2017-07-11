@@ -47,7 +47,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.11</version>
                 <configuration>
-                    <imageName>spring-boot-docker:1.0</imageName>
+                    <imageName>10.1.239.42:8060/spring-boot-docker:1.0</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
