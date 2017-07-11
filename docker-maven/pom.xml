@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <docker.image.prefix>bluecoffee</docker.image.prefix>
-        <docker.harbor.url>10.1.239.42:8060</docker.harbor.url>
+        <docker.harbor.url>10.1.239.42:8060/core</docker.harbor.url>
     </properties>
 
     <dependencies>
